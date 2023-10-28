@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins&display=swap');
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.side-rect{
+ height: 450px;
+ width: 4%;
+ background-color: #dcdcf2;
+}
+.head-content{
+    width: 40%;
+    margin-left:40px ;
+    color:#595c87 ;
+   font-family: 'Poppins', sans-serif;
+
+
+}
+.head-content h1{
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.head-content p {
+    font-size: 24px;
+    font-weight: 600;
+}
+.head-img{
+    margin-left: 150px;
+}
+.head-img img{
+    width: 450px;
+    height: 530px;
+
+}
+@media screen and (max-width:991px){
+    .head-img{
+        margin-left: 0px;
+    }
+    .head-img img{
+        width: 400px;
+        height: 480px;
+    
+    }
+
+}
+@media screen and (max-width:786px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .side-rect{
+        width: 80%;
+        height: 50px;
+       }
+       .head-content{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-top: 50px;    
+    }
+    .head-content p {
+        margin-top: 50px;
+    }
+    .head-img{
+        margin-left:0;
+    }
+    .head-img img{
+        width: 350px;
+        height: 430px;
+    
+    }
+    
+}
