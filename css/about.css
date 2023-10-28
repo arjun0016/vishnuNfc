@@ -149,6 +149,9 @@
     box-shadow: 10px 10px 5px #000000;
     margin-bottom: 50px;
 }
+.maintenance p{
+    width: 95%;
+}
 .maintenance .p2{
     margin-left: 50px;
 
@@ -163,14 +166,22 @@
         text-align: center;
   
     }
-    .head-content p {
-        font-size: 20px;
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .about-content h1{
+        font-size: 30px;
+        font-weight: 700;
     }
     .about-content p {
-        width: 99%;
+        width: 80%;
+        font-size: 16px;
     }
     .maintenance p {
-        width: 98%;
+        width: 90%;
     }
 
     .maintenance h2{
@@ -179,6 +190,28 @@
     .maintenance .p2{
         margin-left: 0px;
     
+    }
+    .box p{
+        font-size: 18px;
+        width: 310px;
+    
+    }
+    .client h1{
+        font-size: 70px;
+    }
+    .client p{
+        font-size: 22px;
+        line-height: 25px;
+
+ 
+    }
+    .years h1{
+        font-size: 80px;
+
+    }
+    .years p{
+        font-size: 22px;
+        line-height: 25px;
     }
 
 }
